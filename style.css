@@ -96,3 +96,41 @@ select {
   font-size: inherit;
   font-weight: inherit;
 }
+
+.hero_bg-img {
+  background-color: #edfbff;
+  background-image: url("/images/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top 0 right 16px;
+  background-size: 100% 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+}
+
+header img {
+  width: 104px;
+  height: 16px;
+}
+
+header a {
+  text-decoration: none;
+  width: 112px;
+  height: 32px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header p {
+  color: var(--clr-neutral-200);
+  font-family: var(--ff-primary-200);
+  font-size: var(--fs-400);
+  font-weight: var(--fw-bold);
+}
