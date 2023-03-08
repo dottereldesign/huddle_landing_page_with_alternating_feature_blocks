@@ -141,7 +141,7 @@ header p {
 
 /* main */
 main {
-  padding: 0 16px;
+  padding: 0 16px 48px 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,4 +185,15 @@ main a p {
 
 main img {
   margin-top: 48px;
+}
+
+/* section cards */
+section {
+  padding: 16px;
+  background-color: white;
+}
+
+article {
+  padding: 16px;
+  border-radius: 16px;
 }
