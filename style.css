@@ -1,13 +1,13 @@
 :root {
-  /* ### Headings
+  --ff-primary-100: "Poppins", sans-serif;
+  --ff-primary-200: "Open Sans", sans-serif;
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 600
-
-### Body, Call-to-actions
-
-- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-- Weights: 400, 700 */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+  --fw-extra-bold: 800;
 
   --clr-primary-100: hsl(322, 100%, 66%);
 
@@ -90,4 +90,9 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+* {
+  font-size: inherit;
+  font-weight: inherit;
 }
